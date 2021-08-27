@@ -1,0 +1,214 @@
+{
+    "php.suggest.basic": false,
+    "php.executablePath": "/usr/bin/php",
+    "terminal.integrated.fontfamily": "Inconsolata for Powerline",
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "aspnetcorerazor": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    },
+    "editor.formatOnPaste": true,
+    "editor.cursorBlinking": "expand",
+    "editor.lineHeight": 22,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontFamily": "Victor Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": "600",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.showFoldingControls": "always",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "emphasis",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "strong",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "name": "Other Extension Attribute",
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#FFCB6B"
+                }
+            },
+            {
+                "scope": "markup.underline",
+                "settings": {
+                    "fontStyle": "underline"
+                }
+            },
+            {
+                "scope": [
+                    "markup.bold",
+                    "markup.heading"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "markup.italic",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "String interpolation",
+                "scope": [
+                    "punctuation.definition.template-expression.begin",
+                    "punctuation.definition.template-expression.end",
+                    "punctuation.section.embedded"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "this.self",
+                "scope": "variable.language",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#ff5874",
+                }
+            },
+            {
+                "name": "@Decorator",
+                "scope": [
+                    "meta.decorator punctuation.decorator"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.comment",
+                    "comment"
+                ],
+                "settings": {
+                    //"foreground": "#4286f4",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "constant",
+                    "storage.modifier",
+                    "storage.type",
+                    "storage.type.class.js",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#82AAFF",
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.function"
+                ],
+                "settings": {
+                    //"foreground": "#cc2828",
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "name": "Class Name",
+                "scope": "entity.name.type.class",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "name": "Method and Function",
+                "scope": [
+                    //"entity.name.function",
+                    "entity.name.method"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold",
+                    //"foreground": "#82AAFF",
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics VSCode has some defaults for italics
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+    "breadcrumbs.enabled": true,
+    "workbench.activityBar.visible": true,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.vscode": true,
+        "**/.git": false,
+        "**/.gitignore": false,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": false,
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml",
+        "editor.formatOnType": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnType": true,
+    },
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "git.autofetch": true
+}
