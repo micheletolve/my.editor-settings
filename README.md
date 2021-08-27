@@ -1,2 +1,1 @@
-# vscode-settings
-VsCode settings file
+# My text editor settings
